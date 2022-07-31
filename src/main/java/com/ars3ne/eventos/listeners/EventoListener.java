@@ -190,8 +190,8 @@ public class EventoListener implements Listener {
                 settings.set("Locations.Pos1.x", e.getClickedBlock().getX());
                 settings.set("Locations.Pos1.y", e.getClickedBlock().getY());
                 settings.set("Locations.Pos1.z", e.getClickedBlock().getZ());
-                settings.set("Locations.Pos1.Yaw", e.getPlayer().getLocation().getYaw());
-                settings.set("Locations.Pos1.Pitch", e.getPlayer().getLocation().getPitch());
+                settings.set("Locations.Pos1.yaw", e.getPlayer().getLocation().getYaw());
+                settings.set("Locations.Pos1.pitch", e.getPlayer().getLocation().getPitch());
 
                 try {
                     EventoConfigFile.save(settings);
@@ -212,8 +212,8 @@ public class EventoListener implements Listener {
                 settings.set("Locations.Pos2.x", e.getClickedBlock().getX());
                 settings.set("Locations.Pos2.y", e.getClickedBlock().getY());
                 settings.set("Locations.Pos2.z", e.getClickedBlock().getZ());
-                settings.set("Locations.Pos2.Yaw", e.getPlayer().getLocation().getYaw());
-                settings.set("Locations.Pos2.Pitch", e.getPlayer().getLocation().getPitch());
+                settings.set("Locations.Pos2.yaw", e.getPlayer().getLocation().getYaw());
+                settings.set("Locations.Pos2.pitch", e.getPlayer().getLocation().getPitch());
                 
                 try {
                     EventoConfigFile.save(settings);
@@ -242,8 +242,8 @@ public class EventoListener implements Listener {
                 settings.set("Locations.Pos3.x", e.getClickedBlock().getX());
                 settings.set("Locations.Pos3.y", e.getClickedBlock().getY());
                 settings.set("Locations.Pos3.z", e.getClickedBlock().getZ());
-                settings.set("Locations.Pos3.Yaw", e.getPlayer().getLocation().getYaw());
-                settings.set("Locations.Pos3.Pitch", e.getPlayer().getLocation().getPitch());
+                settings.set("Locations.Pos3.yaw", e.getPlayer().getLocation().getYaw());
+                settings.set("Locations.Pos3.pitch", e.getPlayer().getLocation().getPitch());
                 
                 try {
                     EventoConfigFile.save(settings);
@@ -264,8 +264,8 @@ public class EventoListener implements Listener {
                 settings.set("Locations.Pos4.x", e.getClickedBlock().getX());
                 settings.set("Locations.Pos4.y", e.getClickedBlock().getY());
                 settings.set("Locations.Pos4.z", e.getClickedBlock().getZ());
-                settings.set("Locations.Pos4.Yaw", e.getPlayer().getLocation().getYaw());
-                settings.set("Locations.Pos4.Pitch", e.getPlayer().getLocation().getPitch());
+                settings.set("Locations.Pos4.yaw", e.getPlayer().getLocation().getYaw());
+                settings.set("Locations.Pos4.pitch", e.getPlayer().getLocation().getPitch());
                 
                 try {
                     EventoConfigFile.save(settings);
